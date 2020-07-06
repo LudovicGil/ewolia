@@ -1,0 +1,115 @@
+/* BODY */ 
+* 
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+section 
+{
+    margin: 25px 0;
+}
+.header h3 {
+    text-align: center;
+    margin: 45px 0;
+    text-transform: uppercase;
+}
+/* NAV */
+nav img 
+{
+    width: 100px;
+}
+nav
+{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* ACCUEIL BANDEAU */ 
+#accueil-bandeau
+{
+    background-image: url('../pictures/background.jpg');
+    width: 100%;
+    height: 711px;
+
+}
+@media screen and (max-width: 960px){ 
+    #accueil-bandeau 
+    {
+    background-image: none !important; 
+    height: 820px;
+    }
+    #accueil-bandeau h3 
+    {
+        color: #3F4B54 !important;
+    }
+}
+#accueil-bandeau h3 
+{
+    position: relative;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 90px;
+}
+#accueil-bandeau a 
+{
+    display:block;
+    margin: auto;
+    text-align: center;
+    background: #E0A353;
+    padding: 18px 15px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    margin-top: 100px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+/* CONSEILS */
+.divider
+{
+    margin: auto;
+    width: 150px;
+    padding-top: 45px;
+    border-bottom: 3px solid #E0A353;
+}
+
+.conseils
+{
+    text-align: center;
+}
+.conseils .col-md-5
+{
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+/* RECOUVREMENT */
+.recouvrement {
+    background: #E0A353;
+    padding-bottom: 100px;
+    border-bottom: #3F4B54 3px solid;
+}
+.recouvrement h4
+{
+    margin: 8px 0;
+}
+.recouvrement .row 
+{
+    text-align: center;
+}
+.recouvrement .col-md-5
+{
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+/*FOOTER*/
+.footer li 
+{
+    list-style: none;
+    text-align: left;
+}
+.footer li i {
+    margin-right: 10px;
+}
